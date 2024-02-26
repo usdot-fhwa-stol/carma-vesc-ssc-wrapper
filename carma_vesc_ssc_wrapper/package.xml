@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>carma_vesc_ssc_wrapper</name>
+  <version>1.0.0</version>
+  <description>CARMA vesc driver wrapper package</description>
+  <maintainer email="carma@dot.gov">carma</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+  <build_depend>carma_cmake_common</build_depend>
+  <build_depend>rcpputils</build_depend>
+  <build_depend>ament_cmake_auto</build_depend>
+
+  <depend>autoware_msgs</depend>
+  <depend>carma_driver_msgs</depend>
+  <depend>carma_ros2_utils</depend>
+  <depend>geometry_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>vesc_driver</depend>
+  <depend>vesc_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
